@@ -18,3 +18,17 @@
  In order to achieve permutation we bracktrack by popping element from temp and mark taken as not taken so for that index we can take other values and value used previously by current index 
  can be used by proceeding indexes.
 }}
+
+
+{{
+18-01-2024
+For all elements of gallery find the min and max range.If g[i]==-1 insert 1e9 as max and min as it is out of range than input size.
+Now sort the vector of pair 
+take is next position to be sprinkled ,index is traversing in vector of pair and ans for answer
+nas is the last sprinkled
+we need to move till take<n as when take is n so all position are sprinkled
+we take all those for which first value of vector is less than take and nas keeps the maximum of second value of vector
+if condition fails to match so till nas(maximum values for right)  is reached and nas+1 will be new_take 
+if nas+1 (new_take) <=take (old) we will not be able to sprinkle complete else  take=nas+1;
+
+}}
