@@ -32,3 +32,14 @@ if condition fails to match so till nas(maximum values for right)  is reached an
 if nas+1 (new_take) <=take (old) we will not be able to sprinkle complete else  take=nas+1;
 
 }}
+
+
+{{
+19-01-2024
+when reaches a particular index
+map store the element and frequency of it
+Traverse vector of pair and store the element and frequency if not exist  else update the frequncy
+sort with custom function that first sort on basis of frequency if not equal else on basis of value
+Now check minimum of vector of pair size and K element we want to take and push them in temp vector
+push temp vector in result vector
+}}
