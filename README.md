@@ -43,3 +43,10 @@ sort with custom function that first sort on basis of frequency if not equal els
 Now check minimum of vector of pair size and K element we want to take and push them in temp vector
 push temp vector in result vector
 }}
+
+{{
+30-01-2024
+Similar to LCS of two string.
+If index at i,j,k of a,b,c are same then 1+call for next indexes of all three
+else three possibilties will be there that is either increase i and keep j,k same Similarly for other two.
+}}
