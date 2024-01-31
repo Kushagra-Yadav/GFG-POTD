@@ -50,3 +50,11 @@ Similar to LCS of two string.
 If index at i,j,k of a,b,c are same then 1+call for next indexes of all three
 else three possibilties will be there that is either increase i and keep j,k same Similarly for other two.
 }}
+
+31-01-2024
+In trie there is a root node which contain path for a to z similar to Linked List.
+For insertion we check traversing from root that is there any path from root to that char so move there else create node to it from inital position and when all element are inserted mark leafNode field true.
+
+For search move from root and keep checking that at i th height i th character is present from root if it is not then false and if all element of search are checked we also check its leafNode field true else
+it will be prefix not the entire text.
+}}
