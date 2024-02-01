@@ -1,4 +1,14 @@
 {{
+01-02-2024
+ O(1) space == O(26)
+We create vector of 26 size and intial value 0 .Each index corresponding to alphabet (A or a both to index 0)
+We traverse string and see char and if index value is 0 then only add 1
+At end we traverse 26 element of vector and now if sum==26 then there would have been all alphabet no matter capital or small it would be solved by index and ans is true else false
+}}
+
+
+
+{{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
  int index and value
