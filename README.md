@@ -5,8 +5,12 @@ We create vector of 26 size and intial value 0 .Each index corresponding to alph
 We traverse string and see char and if index value is 0 then only add 1
 At end we traverse 26 element of vector and now if sum==26 then there would have been all alphabet no matter capital or small it would be solved by index and ans is true else false
 }}
-
-
+{{
+02-02-2024
+At index 0 we may have - for negative apart from that all indexes in string must have 0 to 9 numbers else we return -1
+power of 10 to m(total length-1) is multiplied to value at 0 then index increase and m decrease by 1 (In case 0 index is - we increase index and decrease m by 1 and start from increased index
+At answer return if 0 index has - so return negative naswer else positive i.e exact answer
+}}
 
 {{
 16-01-2024
