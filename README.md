@@ -13,6 +13,12 @@ At answer return if 0 index has - so return negative naswer else positive i.e ex
 }}
 
 {{
+03-02-2024
+We have an answer already (started from 0)
+Now when head is traversed and we reach a particular head now we left shift the ans by 1 and then add the data of head for shifted position  and continue the process till NULL is reached.
+}}
+
+{{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
  int index and value
