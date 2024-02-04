@@ -17,6 +17,8 @@ At answer return if 0 index has - so return negative naswer else positive i.e ex
 We have an answer already (started from 0)
 Now when head is traversed and we reach a particular head now we left shift the ans by 1 and then add the data of head for shifted position  and continue the process till NULL is reached.
 }}
+
+
 {{
 04-02-2024
 First remove the leading zeroes in both LL
