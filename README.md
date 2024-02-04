@@ -17,6 +17,29 @@ At answer return if 0 index has - so return negative naswer else positive i.e ex
 We have an answer already (started from 0)
 Now when head is traversed and we reach a particular head now we left shift the ans by 1 and then add the data of head for shifted position  and continue the process till NULL is reached.
 }}
+{{
+04-02-2024
+First remove the leading zeroes in both LL
+Now calculate the length of both
+We will keep h1 as larger number
+if first LL length is greater than second LL this is what we wanted
+else if first LL is less than second LL we swap them 
+else it will be equal length :
+                               Now we traverse the head until both pointer are equal
+                               when WHEN loop break and both pointer point to NULL means both num are equal
+                                else there will be diffence in values :
+                                                                        Again if first LL value is less than second LL value we swap
+ Now we reverse both LL
+ Now traverse from beginning of 1st LL and store its start in prev_start and if 2nd LL is not null so x=value else x=0
+   if value of 1st LL pointer is less than x than value+10-x will be stored in 1st LL pointer value and we move to next 1st LL and subtract its value by 1
+   else we just subtract 1st LL pointer - 2nd LL pointer and store in first LL pointer and next 1st LL pointer 
+   if 2nd LL pointer is not null we move next 
+ when h1 is traversed now answer is stored in reverse fashion from prev_start;
+ we reverse the prev_start and remove leading zeroes
+ if new head point NULL so return new Node(0) else new head
+                                                                        
+                               
+}}
 
 {{
 16-01-2024
