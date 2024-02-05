@@ -43,6 +43,18 @@ else it will be equal length :
                                
 }}
 
+
+{{
+05-02-2024
+We have a circular LL
+if head is null we create an node and do it self point to make circular LL
+if data to be inserted is even less than equal data of head :
+                                                             we take data of head to temp and create new node of temp ,we put data to be inserted at head and do new node connections
+Now sure data will  be greater than head and we will iterate head until we reach start or value become less than equal current pointer.We keep account of prev and current i.e. till which data is greater than current when this is false we create a new node between prev and current.If it was maximum among all then temp would have been to start hence loop teminates and new data will get inserted between last and first
+                                                                        
+}}
+
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
