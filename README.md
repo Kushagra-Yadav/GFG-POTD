@@ -56,6 +56,15 @@ Now sure data will  be greater than head and we will iterate head until we reach
 
 
 {{
+06-02-2024
+Will traverse and push and pop in vector according to recursion.
+if root->left and root->right both are null so it is leaf and we check from back of vector at k position if exist so put its addrress in set
+if root is null we return, as it is not leaf node
+                                                                        
+}}
+
+
+{{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
  int index and value
