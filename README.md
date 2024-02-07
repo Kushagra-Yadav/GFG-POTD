@@ -64,6 +64,24 @@ if root is null we return, as it is not leaf node
 }}
 
 
+
+{{
+07-02-2024
+Make child to parent relation 
+find the two node position
+maintain a distance counter as 0
+Will push A node in queue and mark visited in set :  
+                         see the size of queue:
+                                               pop the element
+                                               check if it is  equal to B node:
+                                                   return counter 
+                                               else:
+                                                  see is its children are not null then not in set then push in queue (both left and right one by one)
+                                                  check its parent is existing and not in set so push it too in queue
+                         increase the counter
+                                                                        
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
