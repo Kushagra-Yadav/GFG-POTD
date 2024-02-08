@@ -82,6 +82,16 @@ Will push A node in queue and mark visited in set :
                                                                         
 }}
 
+
+{{
+08-02-2024
+{{
+Check the minimum height and maximum height of tree
+if both are equal the all leaft node are at same level else not
+                                                                        
+}}
+
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
