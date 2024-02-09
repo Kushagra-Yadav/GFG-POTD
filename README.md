@@ -85,10 +85,17 @@ Will push A node in queue and mark visited in set :
 
 {{
 08-02-2024
-{{
 Check the minimum height and maximum height of tree
 if both are equal the all leaft node are at same level else not
                                                                         
+}}
+
+{{
+09-02-2024
+Check from root.
+if root is null return 1
+if leaf node then return 1
+Make its left and right as zero and if they exist intitialize them and compare their sum with root value if equal return 1 else 0
 }}
 
 
