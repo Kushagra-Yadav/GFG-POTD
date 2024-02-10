@@ -98,6 +98,13 @@ if leaf node then return 1
 Make its left and right as zero and if they exist intitialize them and compare their sum with root value if equal return 1 else 0
 }}
 
+{{
+10-02-2024
+Similar  to DP all path except that sum must be equal to k
+At any instant sum exceed k mean no path possible so that return 0
+else call for right and down
+}}
+
 
 {{
 16-01-2024
