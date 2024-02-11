@@ -107,6 +107,18 @@ else call for right and down
 
 
 {{
+11-02-2024
+indexing from 0
+if last element is grater than index value and not in set
+                                                we take last element and substract from index
+                                                else 
+                                                add index value to last element
+                                         push in vector 
+before moving next index we insert last element in set
+}}
+
+
+{{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
  int index and value
