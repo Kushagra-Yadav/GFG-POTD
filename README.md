@@ -118,6 +118,17 @@ before moving next index we insert last element in set
 }}
 
 
+
+{{
+12-02-2024
+There is val starting from 1
+Outer loop works from 1 to n
+Inner loop works till outer loop 
+   we calculate answer and val is always increased
+ add temp answer to final answer
+  
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
