@@ -129,6 +129,19 @@ Inner loop works till outer loop
   
 }}
 
+
+{{
+13-02-2024
+We store map for new nodes created and there new addresses.
+Beginning with node give we copy it to ans node and create queue for given graph 
+We push the given graph node into queue
+   We take element from front of queue see its neighbours 
+   if they do not exist in map we create them and mark the key value pair in map.
+      we push them in queue as well when we create them for first time
+    We push  map[x->val] in map[f->val].neigbours
+return ans node 
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
