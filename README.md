@@ -142,6 +142,19 @@ We push the given graph node into queue
 return ans node 
 }}
 
+
+{{
+14-02-2024
+TARJAN'S ALGO Used to find the bridges / Critical Edges of a graph. DFS Traversal is used. Here, we have to maintain 3 variables or vectors to store info about each node:-
+1) Visitied array for performing DFS.
+2) A timer variable denoting the time it takes to reach that particular node while DFSing.
+3) A lowestTime variable which indicates that the particular variable can be reached alternatively through some other node instead of its Parent Node. (If it wasn't for the sake of vdo, i would've named it better like alternateAddress smthng.) STEPS: 1) Upon reaching a node, mark it as visited and set it's time and lowestTime to the global timer value and also increment that global timer for next nodes. 2) using a for loop, visit all its children IF they aren't visited yet(just like a normal DFS). After Returning from the DFS call, if(lowestTime[child] < lowestTime[node]) Then set lowestTime[node] = lowestTime[child]; ELSE check if it's a Bridge (if lowestTime[child] > Time[node]) add it to Bridge. 3) If a child is already visited, neither we visit it, nor do we check if it's a Bridge becoz we sure know that if it's already visited, then it has another path by which it was visited earlier. So we'll only fetch it's lowestTime, if(lowestTime[child] < lowestTime[node]) Then set lowestTime[node] = lowestTime[child].        
+Complexities: Time O(V + 2E) Space O(3V)
+for vis, address, alternateAdd Code: (Note that in place of time, lowestTime i've used variable names as address and alternateAdd respectively; it's just names so doesn't matter anyways)
+}}
+
+
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
