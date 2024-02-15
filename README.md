@@ -153,6 +153,11 @@ Complexities: Time O(V + 2E) Space O(3V)
 for vis, address, alternateAdd Code: (Note that in place of time, lowestTime i've used variable names as address and alternateAdd respectively; it's just names so doesn't matter anyways)
 }}
 
+{{
+15-02-2024
+Graph is already connected so need not to check it.
+If all the vertices of connected graph have even degree then we have euler cicruit possible.
+}}
 
 
 {{
