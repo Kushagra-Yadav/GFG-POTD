@@ -159,6 +159,15 @@ Graph is already connected so need not to check it.
 If all the vertices of connected graph have even degree then we have euler cicruit possible.
 }}
 
+{{
+16-02-2024
+ We store prev and dummy as a node pointing to a new node -1.
+ No we move left and when we reach the one node whose is null we return and connect the right of prev(gobally manipulated) to current node and make left of prev NULL and move prev to right .
+ Now we call for right of curr node.
+ Th prev is passed as reference as that is manipulated.
+ At end prev point to last whose left and right are made NULL to terminate and we return the right of dummy node.
+}}
+
 
 {{
 16-01-2024
