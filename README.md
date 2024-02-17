@@ -180,6 +180,16 @@ If all the vertices of connected graph have even degree then we have euler cicru
  if value is strictly greater than limit at any point return 0
 }}
 
+
+
+{{
+17-02-2024
+for every index i check its child that parent i is greater than 2*i+1 and 2*i+2
+Maximum index to check is (n-1)/2 
+}}
+
+
+
 {{
 17-01-2024
  We have n space for perumtation that is size of array.
