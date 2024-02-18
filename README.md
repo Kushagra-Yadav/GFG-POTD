@@ -201,6 +201,13 @@ Maximum index to check is (n-1)/2
 }}
 
 
+
+
+{{
+18-02-2024
+Look for leaf node and add it to global variable if is leaf node in traveseral
+}}
+
 {{
 18-01-2024
 For all elements of gallery find the min and max range.If g[i]==-1 insert 1e9 as max and min as it is out of range than input size.
