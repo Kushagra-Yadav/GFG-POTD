@@ -220,7 +220,10 @@ if condition fails to match so till nas(maximum values for right)  is reached an
 if nas+1 (new_take) <=take (old) we will not be able to sprinkle complete else  take=nas+1;
 
 }}
-
+{{
+19-02-2024
+We have to minimize the frequency of each character so we store freq in priority queue and for k time we take the maximum frequency and reduce by 1
+}}
 
 {{
 19-01-2024
