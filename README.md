@@ -235,6 +235,14 @@ Now check minimum of vector of pair size and K element we want to take and push 
 push temp vector in result vector
 }}
 
+
+{{
+20-02-2024
+We search for all the possibility from a index.
+From the given index to remaining length possible we check is it possible for any substring so we return true else we return false.
+}}
+
+
 {{
 30-01-2024
 Similar to LCS of two string.
