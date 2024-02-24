@@ -225,6 +225,21 @@ if nas+1 (new_take) <=take (old) we will not be able to sprinkle complete else  
 We have to minimize the frequency of each character so we store freq in priority queue and for k time we take the maximum frequency and reduce by 1
 }}
 
+
+{{
+20-02-2024
+We search for all the possibility from a index.
+From the given index to remaining length possible we check is it possible for any substring so we return true else we return false.
+}}
+
+
+{{
+24-02-2024
+We need to check that wheather is n maximum or when spilted in (n/2 , n/3 , n/4) is maximum.
+For n==0 answer will be 0 
+We memoize as common subproblem exist through dp
+}}
+
 {{
 19-01-2024
 when reaches a particular index
@@ -236,11 +251,6 @@ push temp vector in result vector
 }}
 
 
-{{
-20-02-2024
-We search for all the possibility from a index.
-From the given index to remaining length possible we check is it possible for any substring so we return true else we return false.
-}}
 
 
 {{
