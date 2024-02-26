@@ -240,6 +240,13 @@ For n==0 answer will be 0
 We memoize as common subproblem exist through dp
 }}
 
+
+{{
+26-02-2024
+Create all possible subsequences and store in multiset.
+Take an index value or not take an index value
+when take index value append to current string else send same string as it is.
+}}
 {{
 19-01-2024
 when reaches a particular index
