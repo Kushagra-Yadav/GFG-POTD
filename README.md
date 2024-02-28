@@ -216,6 +216,11 @@ Every element is equal to XOR of current and next element.
 
 
 {{
+28-02-2024
+For size of number less than equal to 3 directly see divisibility else sum of last three number is divisible by 8 then number is completely divisble by 8 so if happen return 1 else -1
+}}
+
+{{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
  int index and value
