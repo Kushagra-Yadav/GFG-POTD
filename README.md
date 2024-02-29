@@ -220,6 +220,12 @@ Every element is equal to XOR of current and next element.
 For size of number less than equal to 3 directly see divisibility else sum of last three number is divisible by 8 then number is completely divisble by 8 so if happen return 1 else -1
 }}
 
+
+{{
+29-02-2024
+At every bit postition, check for the number of 1 and 0 .There combination which will lead to zero will be ( number of 1 )* (number of 0 ).At the end ans * 2 
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
