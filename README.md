@@ -226,6 +226,10 @@ For size of number less than equal to 3 directly see divisibility else sum of la
 At every bit postition, check for the number of 1 and 0 .There combination which will lead to zero will be ( number of 1 )* (number of 0 ).At the end ans * 2 
 }}
 
+03-03-2024{{
+Custom sort on basis of that two string in such a way that two when added is greater 
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
