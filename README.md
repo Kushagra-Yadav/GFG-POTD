@@ -226,9 +226,20 @@ For size of number less than equal to 3 directly see divisibility else sum of la
 At every bit postition, check for the number of 1 and 0 .There combination which will lead to zero will be ( number of 1 )* (number of 0 ).At the end ans * 2 
 }}
 
-03-03-2024{{
+04-03-2024
+{{
 Custom sort on basis of that two string in such a way that two when added is greater 
 }}
+
+
+05-03-2024
+{{
+Maintain a minimum array from 0 to j and maximum from to j to n.
+let m and n point to min and max array
+if m<n then move n forward and maintain answer else move m forward.
+At end return answer
+}}
+
 
 {{
 16-01-2024
