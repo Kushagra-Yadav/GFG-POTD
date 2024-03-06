@@ -240,6 +240,10 @@ if m<n then move n forward and maintain answer else move m forward.
 At end return answer
 }}
 
+06-03-2024
+{{
+Standard Robin Karp (Rolling Hash Problem)
+}}
 
 {{
 16-01-2024
