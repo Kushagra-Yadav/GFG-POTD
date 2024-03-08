@@ -245,6 +245,16 @@ At end return answer
 Standard Robin Karp (Rolling Hash Problem)
 }}
 
+08-03-2024
+{{
+ Count the frequency of frequency in map
+ If map size is 1 means only 1 type frequency is there so return 1
+ if greater than 2 no way by deleting one char all frequrncy can be equal
+ if size is two and if both do not have count of frequency of frequency 1 return 0
+ 
+ else return abs difference between key is 1 so 1 else 0
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
