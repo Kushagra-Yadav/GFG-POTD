@@ -255,6 +255,11 @@ Standard Robin Karp (Rolling Hash Problem)
  else return abs difference between key is 1 so 1 else 0
 }}
 
+09-03-2024
+{{
+Keep creating new string based on rules but when its size exceed the index we need to break and make it as base string anc continue for new round.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
