@@ -260,6 +260,13 @@ Standard Robin Karp (Rolling Hash Problem)
 Keep creating new string based on rules but when its size exceed the index we need to break and make it as base string anc continue for new round.
 }}
 
+10-03-2024
+{{
+Maintain a set to have element visited.
+While traversing if that char is not visited add it to result and mark it as visited
+return result at end
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
