@@ -267,6 +267,13 @@ While traversing if that char is not visited add it to result and mark it as vis
 return result at end
 }}
 
+
+11-03-2024
+{{
+Traverse from start of matrix 1 and end of matrix 2 utilizing the advantage them being sorted.
+Do traversal until rows of both are completely traversed.For columns if end and start are reach and then they move out of bound move the rows.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
