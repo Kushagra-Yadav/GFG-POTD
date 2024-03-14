@@ -274,6 +274,14 @@ Traverse from start of matrix 1 and end of matrix 2 utilizing the advantage them
 Do traversal until rows of both are completely traversed.For columns if end and start are reach and then they move out of bound move the rows.
 }}
 
+
+15-03-2024
+{{
+Make array from top to bottom and from left to right whose value shows number of continues X from left to right and top to bottom as end point.
+Now its minimum will get us the maximum size of square possible.
+Check for left and top considering the size and if it is possible to construct a square else for minimum-1 till>0 and update overall answer if construction is possible.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
