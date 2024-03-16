@@ -282,6 +282,13 @@ Now its minimum will get us the maximum size of square possible.
 Check for left and top considering the size and if it is possible to construct a square else for minimum-1 till>0 and update overall answer if construction is possible.
 }}
 
+
+
+16-03-2024
+{{
+Copy next element to current and now connect current to address of address stored in next element.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
