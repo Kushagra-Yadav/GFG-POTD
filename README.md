@@ -300,6 +300,13 @@ Breadth first Search
 Take global depth and global answer.If temporary depth is greater than global depth,global answer is updated and if temporary depth and global depth are equal answer will be max of global and temporary answer.
 }}
 
+21-03-2024
+{{
+Taking root level as 0.
+Do BFS and and at even level push in res vector as normal else when odd level take values in stack and do normal BFS along but just when you exit this particular level BFS empty stack in res vector.
+}}
+
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
