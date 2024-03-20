@@ -295,6 +295,11 @@ Copy next element to current and now connect current to address of address store
 Breadth first Search
 }}
 
+20-03-2024
+{{
+Take global depth and global answer.If temporary depth is greater than global depth,global answer is updated and if temporary depth and global depth are equal answer will be max of global and temporary answer.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
