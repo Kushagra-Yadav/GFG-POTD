@@ -306,6 +306,12 @@ Taking root level as 0.
 Do BFS and and at even level push in res vector as normal else when odd level take values in stack and do normal BFS along but just when you exit this particular level BFS empty stack in res vector.
 }}
 
+22-03-2024
+{{
+make a queue and push the root.
+Take the size of queue and for each front move right as much as possible and push left in queue every time if exist and right movement possible.
+Every time the size of queue will contain element corresponding to a diagonal ,right being value and left being the next level of diagonal.
+}}
 
 {{
 16-01-2024
