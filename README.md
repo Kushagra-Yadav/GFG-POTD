@@ -313,6 +313,12 @@ Take the size of queue and for each front move right as much as possible and pus
 Every time the size of queue will contain element corresponding to a diagonal ,right being value and left being the next level of diagonal.
 }}
 
+
+23-03-2024
+{{
+Standard fibonacci series.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
