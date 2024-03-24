@@ -319,6 +319,11 @@ Every time the size of queue will contain element corresponding to a diagonal ,r
 Standard fibonacci series.
 }}
 
+24-03-2024
+{{
+Recursively pop the element of stack and when it beacomes empty push the new element and again push the element just after you called the recurive function.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
