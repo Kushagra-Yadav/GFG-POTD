@@ -324,6 +324,13 @@ Standard fibonacci series.
 Recursively pop the element of stack and when it beacomes empty push the new element and again push the element just after you called the recurive function.
 }}
 
+25-03-2024
+{{
+Recursively form all the combination of n size.
+When a n-size combination is formed go to check function ,counting prefix 0 and prefix 1 from index 0 to size (i.e n) and if any time prefix count of 1<prefixx count 0 return false else after whole size is traversed and false is not returned so return true implying for every prefix count of 1>=0 and include that pattern in our answer.
+}}
+
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
