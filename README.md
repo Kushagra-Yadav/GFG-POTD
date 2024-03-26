@@ -330,6 +330,13 @@ Recursively form all the combination of n size.
 When a n-size combination is formed go to check function ,counting prefix 0 and prefix 1 from index 0 to size (i.e n) and if any time prefix count of 1<prefixx count 0 return false else after whole size is traversed and false is not returned so return true implying for every prefix count of 1>=0 and include that pattern in our answer.
 }}
 
+26-03-2024
+{{
+Break the string into two part first and second as "123456789" -> 1 234... || 12 34567... || 123 45678.. || 1234 5678.. 
+                                                                  1 2 34567 || 1 23 456... || 1 234 567... || 1 2345 678...
+                                                                  Now we get first and second make the sum using carry as it may be greater than 2^31 
+                                                                  now check if matches the next so call for next part.
+}}
 
 {{
 16-01-2024
