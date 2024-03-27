@@ -338,6 +338,12 @@ Break the string into two part first and second as "123456789" -> 1 234... || 12
                                                                   now check if matches the next so call for next part.
 }}
 
+27-03-2024
+{{
+For all near 0 mark as -1
+start from 0th col and maintain global step and step for start from i-th row and 0-th column and call helper function if valid i.e 1 at that i,j and try go so go in all possible direction after marking the current as visited and if it will be 1 in help called so will continue as 1+s else not.At end if we reach end column then for sure need to return but if it also 1 so this will be 1+s (add 1f ro current index) and update in global s.Take the minimum as for all possbile path.Need to unvisit the i,jwhen we leave the loop in help function .At then end if answer is INT_MAX so return -1 as not path possible else ans.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
