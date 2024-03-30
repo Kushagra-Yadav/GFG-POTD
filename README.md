@@ -349,6 +349,12 @@ start from 0th col and maintain global step and step for start from i-th row and
 Graph must be connected and all must be even degree.(Graph theory)
 }}
 
+30-03-2024
+{{
+Move left till possible else return root's data.
+}}
+
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
