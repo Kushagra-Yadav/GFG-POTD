@@ -354,6 +354,13 @@ Graph must be connected and all must be even degree.(Graph theory)
 Move left till possible else return root's data.
 }}
 
+{{
+01-04-2024
+ The inorder of BST gives us a sorted array.
+ To figure the numbers of pair voilation is actually figuring out the inversion occured with the help of merg sort.
+ When merge sort is done and at any instant we have left and right subarray.Now while filling it in acutal array if i< j and a[i]>b[j] will show the voilation along with this i, since left would be sorted so not only this will be pair all i to the end of left (sorted in inc) will have this applicable [a[i]>b[j] => a[i]<a[i+1] < .... <a[n1-1] will all be >b[j]] so take them as n1-i.At the end return the inversion possible with help of all mergeSort and merge done.
+}}
+
 
 {{
 16-01-2024
