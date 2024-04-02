@@ -64,7 +64,6 @@ if root is null we return, as it is not leaf node
 }}
 
 
-
 {{
 07-02-2024
 Make child to parent relation 
@@ -352,6 +351,11 @@ Graph must be connected and all must be even degree.(Graph theory)
 30-03-2024
 {{
 Move left till possible else return root's data.
+}}
+
+02-04-2024
+{{
+USing BST inorder property get the minimum distance between adjacent.
 }}
 
 {{
