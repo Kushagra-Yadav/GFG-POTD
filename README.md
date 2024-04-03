@@ -355,7 +355,13 @@ Move left till possible else return root's data.
 
 02-04-2024
 {{
-USing BST inorder property get the minimum distance between adjacent.
+Using BST inorder property get the minimum distance between adjacent.
+}}
+
+
+03-04-2024
+{{
+  Make the number reach between x and y and push all till root to this point in vector now this will be all common ancestor if the k th from last exist return that element else return -1.
 }}
 
 {{
