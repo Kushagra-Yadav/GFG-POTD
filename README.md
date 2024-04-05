@@ -353,6 +353,14 @@ Graph must be connected and all must be even degree.(Graph theory)
 Move left till possible else return root's data.
 }}
 
+
+{{
+01-04-2024
+ The inorder of BST gives us a sorted array.
+ To figure the numbers of pair voilation is actually figuring out the inversion occured with the help of merg sort.
+ When merge sort is done and at any instant we have left and right subarray.Now while filling it in acutal array if i< j and a[i]>b[j] will show the voilation along with this i, since left would be sorted so not only this will be pair all i to the end of left (sorted in inc) will have this applicable [a[i]>b[j] => a[i]<a[i+1] < .... <a[n1-1] will all be >b[j]] so take them as n1-i.At the end return the inversion possible with help of all mergeSort and merge done.
+}}
+
 02-04-2024
 {{
 Using BST inorder property get the minimum distance between adjacent.
@@ -364,12 +372,11 @@ Using BST inorder property get the minimum distance between adjacent.
   Make the number reach between x and y and push all till root to this point in vector now this will be all common ancestor if the k th from last exist return that element else return -1.
 }}
 
+05-04-2024
 {{
-01-04-2024
- The inorder of BST gives us a sorted array.
- To figure the numbers of pair voilation is actually figuring out the inversion occured with the help of merg sort.
- When merge sort is done and at any instant we have left and right subarray.Now while filling it in acutal array if i< j and a[i]>b[j] will show the voilation along with this i, since left would be sorted so not only this will be pair all i to the end of left (sorted in inc) will have this applicable [a[i]>b[j] => a[i]<a[i+1] < .... <a[n1-1] will all be >b[j]] so take them as n1-i.At the end return the inversion possible with help of all mergeSort and merge done.
+We need to find longest increasing subsequence with a twist that the from a to a+x where x>1 if we have at indexes i and j respectively then it must have more number between a+x and x here a+x-a-1=x-1 must be greater than equal to number of spaces to fill betwen i and j that  is i-j-1 ,so ,if it holds than we get max(1+ dp[j] ,dp[i]) as  answer for dp[i] . 1+dp[j] shows that till j what was the possible LIS add 1 to it as this i can be added for that => till that j we have a possible answer and now this i can also be added to it to get answer.
 }}
+
 
 
 {{
