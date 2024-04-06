@@ -377,6 +377,16 @@ Using BST inorder property get the minimum distance between adjacent.
 We need to find longest increasing subsequence with a twist that the from a to a+x where x>1 if we have at indexes i and j respectively then it must have more number between a+x and x here a+x-a-1=x-1 must be greater than equal to number of spaces to fill betwen i and j that  is i-j-1 ,so ,if it holds than we get max(1+ dp[j] ,dp[i]) as  answer for dp[i] . 1+dp[j] shows that till j what was the possible LIS add 1 to it as this i can be added for that => till that j we have a possible answer and now this i can also be added to it to get answer.
 }}
 
+06-04-2024
+{{
+first case when all 1
+Now one 2 then distribute remaining 2 1 1 ...
+Now two 2 then distribute remaining 2 2 1 1....
+Now three 2 then ......             2 2 2 1 ....
+
+i.e. maximum 2 can be n/2 which is equal to no. case of 2 so return n/2+1;
+
+}}
 
 
 {{
