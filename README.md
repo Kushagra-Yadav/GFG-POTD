@@ -388,6 +388,11 @@ i.e. maximum 2 can be n/2 which is equal to no. case of 2 so return n/2+1;
 
 }}
 
+07-04-2024
+{{
+    Find the difference and and that cases will be possible for zero multiplication.Do the DP approach.
+}}
+
 
 {{
 16-01-2024
