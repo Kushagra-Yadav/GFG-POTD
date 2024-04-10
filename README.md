@@ -394,6 +394,11 @@ i.e. maximum 2 can be n/2 which is equal to no. case of 2 so return n/2+1;
 }}
 
 
+10-04-2024
+{{
+    Find the XOR of all , so element occuring twice will yield zero and unique will be left.
+}}
+
 {{
 16-01-2024
  arr[i+1]>=2*arr[i] && arr[i]>0
